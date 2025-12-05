@@ -1,34 +1,34 @@
 # Reveal.js Presentation  
-### Example by Enfal
+### Author: Enfal Sevinç - 77789
 
 ---
 
 # What is Reveal.js?
-- HTML/JS tabanlı bir sunum framework'ü  
-- Modern görünüm  
-- Markdown destekler  
-- Yatay + dikey navigation
+- A presentation framework based on HTML/JS  
+- Modern and interactive design  
+- Supports Markdown  
+- Both horizontal and vertical slide navigation
 
 ---
 
 # Why Use Reveal.js?
-- Web tabanlıdır  
-- GitHub Pages ile kolayca yayınlanır  
-- Tema desteği  
-- Kod blokları, resimler, diyagramlar eklenebilir
+- Fully web-based  
+- Easy to publish via GitHub Pages  
+- Theme support  
+- Allows code blocks, images, diagrams, and more
 
 ___
 
 ## Vertical Slide Example
-Bu slayt bir öncekinin dikey alt slaydıdır.
+This slide is a vertical sub-slide of the previous one.
 
 ---
 
 # Markdown Slide Example
-- Markdown formatı  
+- Markdown formatting  
 - *Italic*, **Bold**, `Code`  
-- Listeler  
-- Başlıklar
+- Lists  
+- Headings
 
 ---
 
@@ -38,4 +38,4 @@ Bu slayt bir öncekinin dikey alt slaydıdır.
 ---
 
 # Thanks!
-### Questions?
+### Any Questions?
