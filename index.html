@@ -4,75 +4,30 @@
   <meta charset="utf-8">
   <title>Reveal.js Presentation</title>
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/theme/moon.css" id="theme">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4/dist/reveal.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4/dist/theme/moon.css" id="theme">
 
 </head>
 <body>
 
   <div class="reveal">
     <div class="slides">
-      
-      <!-- BURAYA YENİ KOD GELİYOR -->
-      <section data-markdown data-separator="---" data-separator-vertical="___">
-      <textarea data-template>
-
-# Reveal.js Presentation  
-### Example by Enfal
-
----
-
-# What is Reveal.js?
-- HTML/JS tabanlı bir sunum framework'ü  
-- Modern görünüm  
-- Markdown destekler  
-- Yatay + dikey navigation
-
----
-
-# Why Use Reveal.js?
-- Web tabanlıdır  
-- GitHub Pages ile kolayca yayınlanır  
-- Tema desteği  
-- Kod blokları, resimler, diyagramlar eklenebilir
-
-___
-
-## Vertical Slide Example
-Bu slayt bir öncekinin dikey alt slaydıdır.
-
----
-
-# Markdown Slide Example
-- Markdown formatı  
-- *Italic*, **Bold**, `Code`  
-- Listeler  
-- Başlıklar
-
----
-
-# Image Example
-![Example](img/example.png)
-
----
-
-# Thanks!
-### Questions?
-
-      </textarea>
+      <section data-markdown="slides.md"
+               data-separator="---"
+               data-separator-vertical="___">
       </section>
-
     </div>
   </div>
 
-  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4/dist/reveal.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4/plugin/markdown/markdown.js"></script>
+
   <script>
     Reveal.initialize({
-      controls: true,
-      progress: true,
       hash: true,
-      slideNumber: true
+      plugins: [ RevealMarkdown ]
     });
   </script>
+
 </body>
 </html>
